@@ -26,6 +26,7 @@ public class TestBank {
 		System.out.println();
 		acc2.showAccDetails();
 		System.out.println();
+		System.out.println("Avg of acc1 and acc2="+BankAccounts.getAvgBalance(acc1,acc2));
 		BankAccounts.showTotalDeposits();
 		BankAccounts.showTotalWithdraws();
 	}
