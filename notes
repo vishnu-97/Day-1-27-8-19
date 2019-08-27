@@ -1,0 +1,169 @@
+static import used to import static members of a class
+
+import static java.lang.System.out;
+usage:
+ out.println("");
+
+ 
+--------------------------------------------------
+For each format-
+for(int i:collection){
+} 
+
+
+---------------------------------------------------
+fix import ctrl+shift+o
+fix format ctrl+shift+f
+fix multiline comment ctrl+shift+/
+
+
+---------------------------------------------------
+switch can also be used for string
+
+
+---------------------------------------------------
+basic Contents of class
+1.get/set
+2.combinations of constructors
+3.tostring
+4.equals & hashcode
+
+
+---------------------------------------------------
+project lombog framework creates above parts automatically
+
+
+---------------------------------------------------
+class demo{
+	int x,y;		//instance vars defines property of an object
+	static int a,b;	//class vars defines property of a class
+	
+	{
+		int u;		//local var
+	}
+}
+
+
+---------------------------------------------------
+
+instantiaton = creation of obj
+
+
+---------------------------------------------------
+void fun(int... v){
+	for(int a:v){
+	}
+}
+
+void fun(int... v,string... x){      /// wrong
+	for(int a:v){
+	}
+}
+
+instead
+
+void fun(string[] x,int... v){   	/// call= string[] s={"asda","aewawe"};
+									///	fun(s,12,123,123);
+	for(int a:v){
+	}
+	for(String s:x){}
+	
+}
+
+
+---------------------------------------------------
+MEMORY WRKS ON OBJ CREATION
+
+1.MEMORY  ALLOCATED FOR ALL INSTANCE VARS
+2.DEFAULT VAL ASSIGN DEFAULT VALS
+3.EXPLICIT INITIALIZATION(IF any)
+
+
+---------------------------------------------------
+MEMORY WRKS ON OBJ CREATION
+
+STATIC VALS ARE LOADED WHEN CLASSES ARE LOADED INTO MEMORY
+CLASSES ARE LOADED INTO MEMRY WHN ITS MEMBERS ARE USED FR THE FIRST TYM ie. THE FIRST TYM its static variable is used or first tym its obj is created
+
+
+---------------------------------------------------
+ASSIGNMENT
+
+create class fr managing bank acc
+
+contents:
+name BankAccounts
+fields : ano,name,balance,atype
+
+meths:
+1.meth fr initializing an acc
+2.meth fr displaying details of acc
+3.meth fr withdrawing money frm acc
+4.meth fr depositing money
+5.meth to display total deposit and total withdrawls
+6.meth to compute avg bal of acc
+construct to init acc details
+provisions fr total deposit and total withdrawls
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
